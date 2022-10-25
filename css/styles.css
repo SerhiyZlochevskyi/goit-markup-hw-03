@@ -238,3 +238,13 @@ border-radius: 4px
   letter-spacing: 0.03em;
   color: var(--o-nas-color);
 }
+/* test */
+.box {
+  border: 1px solid #000000;
+  padding: 20px;
+margin-bottom: 20px;
+}
+h2,
+p{
+  margin: 0;
+}
