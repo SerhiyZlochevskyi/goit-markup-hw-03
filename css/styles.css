@@ -23,7 +23,7 @@
   padding-left: 15px;
   padding-right: 15px;
   width: 1200px; 
-  /* background-color: tomato; */
+  
 }
 h1, h2, h3, p {
   margin-top: 0;
@@ -46,6 +46,22 @@ h1, h2, h3, p {
   color: var(--accent-color);
 }
 .header-list{
+ 
+  display: flex;
+}
+.header-list-link{
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.header-contakt{
+  display: flex;
+}
+.header-list-item{
+}
+.header-list .header-list-item + .header-list-item{
+  background-color: #188CE8;
+  margin-left: 50px;
 }
 .header-studio {
   color: var(--header-studio-color);
@@ -137,7 +153,6 @@ margin-bottom: 10px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
-  background-color: tomato;
 }
 .about-list-text2 {
   margin-top: 0px;
@@ -233,6 +248,8 @@ padding-bottom: 30px;
   color: rgba(255, 255, 255, 0.6);
 }
 /* Поттфолио */
+.portfolio-blok{
+}
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -245,9 +262,13 @@ padding-bottom: 30px;
     clip-path: inset(50%);
     margin: -1px;
   }
+  .list-button{
+    display: flex;
+    
+  }
 .button-portfolio {
   display: inline-block;
- margin-bottom: 8px;
+ 
   font-family: "Roboto";
   font-style: normal;
   min-width: 130px;
@@ -259,6 +280,10 @@ padding-bottom: 30px;
   letter-spacing: 0.03em;
   border-radius: 4px solid transparent;
   color: var(--title-text-color);
+}
+.list-button .button-portfolio + .button-portfolio{
+  background-color: #000000;
+  margin-left: 8px;
 }
 .poster-img{
   padding-bottom: 30px;
