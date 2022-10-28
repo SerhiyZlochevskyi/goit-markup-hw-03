@@ -154,6 +154,18 @@ background: var(--bg-screan-footer-color);
 }
 
 /* УВАГА ДО ДЕТАЛЕЙ */
+.about-list{
+display: flex;
+flex-wrap: wrap;
+/* margin-left: 93px */
+}
+/* .about-list> .item + .item {
+  margin-right: 50px;
+} */
+.about-list .item {
+width: 270px;
+background-color: tomato;
+}
 
 .about-list-text {
 margin-bottom: 10px;
@@ -260,6 +272,12 @@ padding-bottom: 30px;
 }
 /* Поттфолио */
 .portfolio-blok{
+  display: flex;
+  flex-wrap: wrap;
+}
+.item{
+width: 370px;
+border-color: tomato;
 }
 .visually-hidden {
     position: absolute;
@@ -279,7 +297,6 @@ padding-bottom: 30px;
   }
 .button-portfolio {
   display: inline-block;
- 
   font-family: "Roboto";
   font-style: normal;
   min-width: 130px;
