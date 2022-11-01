@@ -160,11 +160,15 @@ background: var(--bg-screan-footer-color);
 
 /* УВАГА ДО ДЕТАЛЕЙ */
 .about-list{
-display: flex;}
+display: flex;
+
+}
 .about-list .item:not(:last-child) {
 margin-right: 30px;
 }
-
+.about-list .item{
+  flex-basis: calc((100% - 90px) / 3);
+}
 .about-list-text {
   margin-bottom: 10px;
   font-weight: 700;
@@ -404,6 +408,4 @@ border-radius: 4px
   display: flex;
   padding: 300px;
 }
-.text {
-  max-width: 270px;
-}
+.
